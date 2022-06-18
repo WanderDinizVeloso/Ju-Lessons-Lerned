@@ -1,54 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="cabecalho">Meu Primeiro Projeto</title>
+    <title>Meu Primeiro Projeto</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header id="cabecalho">
         <h1 id="titulo">Jovelino</h1>
+        <nav>
+            <ul>
+                <li><a href="#cabecalho">Página Inicial</a></li>
+                <li><a href="#licoes_aprendidas">Lições Aprendidas</a></li>
+                <li><a href="#licoes_a_aprender">Lições à Aprender</a></li>
+                <li><a href="#rodape">Rodapé</a></li>
+            </ul>
+        </nav>
+     
     </header>
+    <img id="minha_foto" src="images/minhafoto.jpg" alt="Minha Foto"/>
+    <section>
+        <h2>Lições Aprendidas</h2> 
+            <ol id="licoes_aprendidas"> 
+                <li>Fundamentos do Desenvolvimento Web</li>
+                <li>Unix & Shell</li>
+                <li>Unix & Bash</li>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>Internet</li>
+                <li>Introdução HTML e CSS</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>HTML Semântico</li>
+            </ol>
+    </section>
 
-    <img src="images/minhafoto.jpg" target="_blank" id="minha_foto" alt="Jovelino"/>
-
-    <nav>
-        <ol id="licoes_aprendidas">
-            <li>Fundamentos do Desenvolvimento Web</li>
-            <li>Unix & Shell</li>
-            <li>Unix & Bash</li>
-            <li>Git</li>
-            <li>GitHub</li>
-            <li>Internet</li>
-            <li>Introdução HTML e CSS</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>HTML Semântico</li>
-        </ol>
-    </nav>
+    <section>
+        <h2>Lições à Aprender</h2>
+            <ul id="licoes_a_aprender"> 
+                <li>Introdução à JavaScript</li>
+                <li>Introdução à Lógica de Programação</li>
+                <li>JavaScript: Desenvolvimento</li>
+                <li>JavaScript: Eventos</li>
+                <li>JavaScript: Web Storage</li>
+                <li>HTML e CSS: forms</li>
+                <li>HTML e CSS: flexbox</li>
+                <li>HTML e CSS: responsivos</li>
+                <li>Introdução à JavaScript ES6 e Testes Unitários</li>
+                <li>Highter Order Funcions do JavaScript ES6</li>
+            </ul>
+    </section>
 
     <article>
-        <section>
-            <h2>Aprendizado no curso</h2>
-            <p>Meu aprendizado no curso até o momento foi de Fundamentos do Desenvolvimento, 
-            Introdução - Unix & Shell, Unix & Bash, Git & GitHub - O que é e para que serve, 
-            Git & GitHub - Entendendo os comandos, Internet - Entendendo como ela funciona, 
-            Introdução - HTML & CSS, HTML & CSS - Estruturas de página, HTML & CSS - Primeiros passos CSS,
-            HTML & CSS - Seletores, e posicionamento e HTML Semântico.</p>
-        </section>
-
-        <section>
-            <aside>
-                <h2>Uma passagem sobre meu aprendizado</h2>
-                <p>Aprendi como criar um site com HTML e CSS, definindo as cores, modo como a página se comporta 
-                e estilizando. E também utilizando o Git e GitHub para ajudar a fazer backup do meu projeto.</p>
-            </aside>
-        </section>
+        <h2>Aprendizado no curso</h2>
+        <p>Meu aprendizado no curso até o momento foi de Fundamentos do Desenvolvimento, 
+        Introdução - Unix & Shell, Unix & Bash, Git & GitHub - O que é e para que serve, 
+        Git & GitHub - Entendendo os comandos, Internet - Entendendo como ela funciona, 
+        Introdução - HTML & CSS, HTML & CSS - Estruturas de página, HTML & CSS - Primeiros passos CSS,
+        HTML & CSS - Seletores, e posicionamento e HTML Semântico.</p>    
     </article>
 
-    <footer id="rodape"></footer>
+    <aside>
+        <h2>Uma passagem sobre meu aprendizado</h2>
+        <p>Aprendi como criar um site com HTML e CSS, definindo as cores, modo como a página se comporta 
+        e estilizando. E também utilizando o Git e GitHub para ajudar a fazer backup do meu projeto.</p>
+    </aside>
+
+    <footer id="rodape">
+        <h3>Todos os direitos reservados, <a href="https://github.com/jovelinoveloso" target="_blank">jovelinoveloso GitHub</a></h3>
+    </footer>
 
 </body>
 </html>
